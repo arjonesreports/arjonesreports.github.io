@@ -1,10 +1,9 @@
-/* 1. Base font stacks */
 :root {
-  --body-font: 'Merriweather', serif;
-  --heading-font: 'Montserrat', sans-serif;
+  /* Primary font: Cochin; fall back to Georgia and any serif */
+  --body-font: 'Cochin', Georgia, serif;
+  --heading-font: 'Cochin', Georgia, serif;
 }
 
-/* 2. Apply to body and headings */
 body {
   font-family: var(--body-font);
   font-weight: 400;
