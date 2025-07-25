@@ -1,7 +1,7 @@
 :root {
-  /* Primary font: Cochin; fall back to Georgia and any serif */
-  --body-font: 'Cochin', Georgia, serif;
-  --heading-font: 'Cochin', Georgia, serif;
+  /* Use Crimson Text for both body and headings */
+  --body-font: 'Crimson Text', serif;
+  --heading-font: 'Crimson Text', serif;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
 
 h1, h2, h3, h4, h5, h6, .logo {
   font-family: var(--heading-font);
-  font-weight: 500;
+  font-weight: 600; /* use semi‑bold for headings */
   line-height: 1.2;
 }
 
