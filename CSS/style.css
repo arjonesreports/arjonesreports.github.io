@@ -1,0 +1,6 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:sans-serif; line-height:1.5; padding:1rem; }
+header { display:flex; justify-content:space-between; margin-bottom:2rem; }
+nav a { margin-left:1rem; text-decoration:none; }
+nav a.active { text-decoration:underline; }
+.clip-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:1rem; }
